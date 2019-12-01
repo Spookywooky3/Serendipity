@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serendipity Loader", "Serendipity Loader\Serendipity Loader.csproj", "{3A4F1B8F-B6FD-4A33-B828-63A1553E0E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serendipity HWID Gen", "Serendipity HWID Gen\Serendipity HWID Gen.csproj", "{A6276616-40F2-4CF6-B9DD-B1611ABA9CD3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A4F1B8F-B6FD-4A33-B828-63A1553E0E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A4F1B8F-B6FD-4A33-B828-63A1553E0E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A4F1B8F-B6FD-4A33-B828-63A1553E0E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A4F1B8F-B6FD-4A33-B828-63A1553E0E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6276616-40F2-4CF6-B9DD-B1611ABA9CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6276616-40F2-4CF6-B9DD-B1611ABA9CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6276616-40F2-4CF6-B9DD-B1611ABA9CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6276616-40F2-4CF6-B9DD-B1611ABA9CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C912CAEC-B6C1-4938-A108-9C7D04329B3A}
+	EndGlobalSection
+EndGlobal
