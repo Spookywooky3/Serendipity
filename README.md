@@ -1,3 +1,4 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/spookywooky3/serendipity/badge)](https://www.codefactor.io/repository/github/spookywooky3/serendipity)
 # Serendipity
 This can be used as a loader however I would not recommend it, due to it being only HWID based so if you're just looking for something easy for some friends then just use this. This also still isn't finished lmao.
 
