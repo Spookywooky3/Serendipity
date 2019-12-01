@@ -33,7 +33,7 @@ namespace Serendipity_Loader
 
                             if (check == "1")
                             {
-
+                                // Add injection & Game checking here
                             }
                             else
                             {
@@ -94,8 +94,6 @@ namespace Serendipity_Loader
             }
         }
 
-
-
         //CREDIT:  https://github.com/malcomvetter/AntiDebug/blob/master/ProtectProcess/AntiDebug.cs
         //Rewritten to learn
         const int DBG_CONTINUE = 0x00010002;
@@ -148,9 +146,10 @@ namespace Serendipity_Loader
                     break;
             }
         }
-        private static void KillOnDebugExit()
+        private static void KillOnDebugExit(object process)
         {
-
+            ((Process)process).WaitForExit();
+            Environment.Exit(1);
         }
         private static void WaitForDebug()
         {
