@@ -13,10 +13,11 @@ namespace Serendipity_Loader
         {
             try
             {
+                SelfDebug();
                 var currentProcess = Process.GetCurrentProcess();
                 Thread processThread = new Thread(new ThreadStart(ProcessCheck));
                 processThread.Start();
-
+                
                 if (IsOnline() == false)
                 {
                     Environment.Exit(0);
